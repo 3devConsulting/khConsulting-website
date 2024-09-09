@@ -16,9 +16,9 @@ function Header() {
 
   // Function to open and close language switcher
   const selectLanguageAction = () => {
-    if (sideMenuIsOpen) {
-      setSideMenuIsOpen(false);
-    }
+    // if (sideMenuIsOpen) {
+    //   setSideMenuIsOpen(false);
+    // }
     setSelectLanguageIsOpen(!selectLanguageIsOpen);
   };
 

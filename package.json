@@ -1,9 +1,9 @@
 {
-  "name": "kh-consulting",
+  "name": "khConsulting-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Laurenz19.github.io/kh-consulting",
+  "homepage": "https://3devConsulting.github.io/khConsulting-website",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite --host 0.0.0.0 --port 0609",

@@ -1,0 +1,38 @@
+/* @import "../scss/index.scss";
+@import "./header.css"; */
+@import "./aboutUs.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SoinSansNeue";
+  src: url("../../fonts/Stawix - SoinSansNeue-Roman.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SoinSansNeue";
+  src: url("../../fonts/Stawix - SoinSansNeue-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SoinSansNeue";
+  src: url("../../fonts/Stawix - SoinSansNeue-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Pour masquer les barres de défilement horizontalement */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Pour masquer les barres de défilement verticalement */
+.scrollable-content {
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none; /* Firefox */
+}

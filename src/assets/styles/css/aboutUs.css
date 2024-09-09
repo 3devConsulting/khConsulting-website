@@ -1,0 +1,18 @@
+/* Assurez-vous que vous n'avez pas de styles conflictuels */
+.slick-dots {
+  bottom: 10px; /* Ajustez la position verticale si nécessaire */
+}
+
+.slick-dots li {
+  margin: 0 4px; /* Ajustez l'espacement entre les points */
+}
+
+.slick-dots li button {
+  font-size: 0; /* Assurez-vous que les boutons sont invisibles */
+}
+
+/* styles.css ou votre fichier CSS */
+.slide {
+  display: flex !important;
+  flex-direction: row !important;
+}

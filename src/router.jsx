@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import NotFound from "./pages/NotFund";
+import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter([
   {

@@ -13,6 +13,7 @@ const ServiceItem = ({
   return (
     <div
       className="flex mb-10 flex-col items-center w-[75%]"
+      style={{margin: '25px auto'}}
       data-aos={animation}
     >
       <div className="flex-shrink-0 p-2 mb-5 rounded-tl-lg rounded-br-lg border-[#8F0C2E] border flex items-center justify-center">
@@ -30,7 +31,7 @@ function OurServices() {
   const { translate } = useLanguage();
 
   return (
-    <div className="w-full h-auto px-4 py-20 sm:px-10 lg:px-28 xl:px-36 flex flex-col">
+    <div className="w-full h-auto px-4 mt-10 sm:px-10 lg:px-28 xl:px-36 flex flex-col">
       <section className="w-full font-bold mb-[80px] text-4xl flex justify-center">
         {translate("our_services")}
       </section>

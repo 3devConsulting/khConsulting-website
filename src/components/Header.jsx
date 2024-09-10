@@ -26,7 +26,7 @@ function Header() {
     { label: "about_us", anchor: "about-us" },
     { label: "our_services", anchor: "our-services" },
     { label: "pricing", anchor: "pricing" },
-    { label: "blog_&_news", anchor: "blog-news" },
+    // { label: "blog_&_news", anchor: "blog-news" },
     { label: "faq", anchor: "faq" },
   ];
 

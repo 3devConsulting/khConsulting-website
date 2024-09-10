@@ -1,0 +1,31 @@
+{
+    "services": [
+      {
+        "nom": "Accompagnement && Industrialisation",
+        "description": "KH Consulting accompagne les exportateurs dans la préparation aux audits phytosanitaires, le contrôle qualité des produits, et la mise en conformité des locaux et produits, tout en améliorant l'expérience client à travers l'optimisation des processus, infrastructures et gestion.",
+        "prix": {
+          "type": "Forfait",
+          "montant": "1500",
+          "details": "Comprend l'accompagnement complet pour les audits, le contrôle qualité, et l'optimisation des processus."
+        }
+      },
+      {
+        "nom": "Relation client",
+        "description": "KH Consulting optimise votre gestion de la relation client en menant des enquêtes de satisfaction, en réalisant des NPS clients, et en vous aidant à rédiger et implémenter des processus de réclamation efficaces.",
+        "prix": {
+          "type": "Forfait",
+          "montant": "1200",
+          "details": "Inclut les enquêtes de satisfaction, le NPS clients, et l'élaboration des processus de réclamation."
+        }
+      },
+      {
+        "nom": "Huiles essentielles",
+        "description": "KH Consulting se spécialise dans la production et la vente d'huiles essentielles, la conception d'alambics de distillation, le contrôle qualité des produits, ainsi que la recherche de fournisseurs et de clients pour maximiser votre succès.",
+        "prix": {
+          "type": "Sur devis",
+          "details": "Le prix varie en fonction des quantités et des exigences spécifiques de production et de contrôle qualité."
+        }
+      }
+    ]
+  }
+  

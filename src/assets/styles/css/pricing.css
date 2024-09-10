@@ -1,0 +1,89 @@
+.pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    /* background-color: #f9f9f9; */
+  }
+  
+  .pricing-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .pricing-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: calc(33% - 20px); /* 3 cartes par ligne avec espacement */
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pricing-plan-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .pricing-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-price {
+    font-size: 2rem;
+    color: #8F0C2E;
+    margin-bottom: 20px;
+  }
+  
+  .currency {
+    font-size: 1.5rem;
+  }
+  
+  .amount {
+    font-weight: bold;
+  }
+  
+  .pricing-button {
+    background-color: #8F0C2E;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .pricing-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .pricing-card {
+      width: calc(50% - 20px); /* 2 cartes par ligne sur petits écrans */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .pricing-card {
+      width: 100%; /* 1 carte par ligne sur très petits écrans */
+    }
+  }
+  

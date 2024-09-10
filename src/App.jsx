@@ -1,12 +1,16 @@
 import AboutUs from "./pages/AboutUs";
-import BlogNews from "./pages/BlogNews";
+// import BlogNews from "./pages/BlogNews";
 import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
 import OurServices from "./pages/OurServices";
 import Pricing from "./pages/Pricing";
 import Header from "./components/Header";
 import AOS from "aos";
-import "aos/dist/aos.css"; // Importez les styles AOS
+import "aos/dist/aos.css";
+import faqData from "./data/Faq.json"
+import Plan from "./data/Pricing.json"
+import Footer from "./components/Footer";
+
 
 function App() {
   AOS.init({
@@ -28,18 +32,19 @@ function App() {
           <OurServices />
         </section>
         <section id="pricing" className="min-h-screen">
-          <Pricing />
+          <Pricing services={Plan.services}/>
         </section>
-        <section id="blog-news" className="min-h-screen">
+        {/* <section id="blog-news" className="min-h-screen">
           <BlogNews />
-        </section>
+        </section> */}
         <section id="faq" className="min-h-screen">
-          <Faq />
+          <Faq faqs={faqData.faq}/>
         </section>
         <section id="contact" className="min-h-screen">
           <Contact />
         </section>
       </main>
+      <Footer/>
     </div>
   );
 }

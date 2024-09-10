@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FiX, FiAlignRight } from "react-icons/fi";
-import { icons } from "./../assets/icon/icons";
+import { icons } from "../../assets/icon/icons";
 import { Link } from "react-scroll";
 import { useLanguage } from "../context/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";

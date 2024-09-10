@@ -10,19 +10,19 @@ const Footer = () => {
       </div>
       <div className="footer-contacts">
         <ul>
-          <li><FaEnvelope /> example@example.com</li>
-          <li><FaPhone /> +123 456 7890</li>
-          <li><FaMapMarkerAlt /> 123 Rue de Exemple, Ville, Pays</li>
+          <li><FaEnvelope /> kh-consult_mada@outlook.com</li>
+          <li><FaPhone /> (+261) 34 93 584 34</li>
+          <li><FaMapMarkerAlt /> Lot VT 5 CS Ampahateza, Ambohipo, 101 Antananarivo </li>
         </ul>
       </div>
-      <div className="footer-social-links">
+      {/* <div className="footer-social-links">
         <ul>
           <li><a href="https://www.facebook.com/example" target="_blank" rel="noopener noreferrer"><FaFacebook size={24} /></a></li>
           <li><a href="https://www.linkedin.com/in/example" target="_blank" rel="noopener noreferrer"><FaLinkedin size={24} /></a></li>
           <li><a href="https://twitter.com/example" target="_blank" rel="noopener noreferrer"><FaTwitter size={24} /></a></li>
           <li><a href="https://www.instagram.com/example" target="_blank" rel="noopener noreferrer"><FaInstagram size={24} /></a></li>
         </ul>
-      </div>
+      </div> */}
       <div className="footer-credits">
         <p>Développé par <strong>3devConsulting</strong></p>
         <p>&copy; 2024 Tous droits réservés</p>

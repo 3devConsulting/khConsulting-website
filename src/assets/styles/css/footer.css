@@ -1,8 +1,8 @@
-/* Footer.css */
 .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
     padding: 20px 175px;
     background-color: #8F0C2E;
     color: white;
@@ -11,6 +11,8 @@
   .footer-logo {
     background-color: white;
     border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
   }
   
   .footer-logo img {
@@ -53,9 +55,62 @@
   .footer-credits {
     text-align: right;
     font-size: 14px;
+    margin-top: 20px;
   }
   
   .footer-credits p {
     margin: 5px 0;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 1024px) {
+    .footer-container {
+      padding: 20px 50px;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-logo {
+      margin-bottom: 20px;
+    }
+  
+    .footer-social-links {
+      margin-top: 20px;
+    }
+  
+    .footer-credits {
+      text-align: left;
+      margin-top: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer-container {
+      padding: 20px;
+    }
+  
+    .footer-social-links ul {
+      gap: 10px;
+    }
+  
+    .footer-credits {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .footer-logo img {
+      width: 60px;
+    }
+  
+    .footer-social-links ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .footer-credits {
+      font-size: 12px;
+      margin-top: 10px;
+    }
   }
   

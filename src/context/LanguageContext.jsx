@@ -1,4 +1,6 @@
 import { createContext, useState, useEffect, useContext } from "react";
+import English from "../locales/En.json"
+import French from "../locales/Fr.json"
 
 // Create a context for managing language settings
 const LanguageContext = createContext();
@@ -9,8 +11,10 @@ export const LanguageProvider = ({ children }) => {
 
   useEffect(() => {
     const loadTranslations = async (language) => {
-      const response = await fetch(`/src/locales/${language}.json`);
-      const data = await response.json();
+      // const response = await fetch(`/src/locales/${language}.json`);
+      // const data = await response.json();
+      // console.log(data)
+      const data = language == 'Fr' ? French: English;
       setCurrentTranslations(data);
     };
 

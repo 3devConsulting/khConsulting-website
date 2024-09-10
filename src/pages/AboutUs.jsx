@@ -3,8 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { images } from "./../assets/image/images";
 import { useLanguage } from "../context/LanguageContext";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import "aos/dist/aos.css";
 
 function AboutUs() {
   const { translate } = useLanguage();
